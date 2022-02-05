@@ -67,7 +67,7 @@ function mascaraCPF(text) {
     var v = text.value;
 
     var caractere1 = v[0];
-    alert(caractere1);
+    
 
     if (isNaN(v[v.length - 1])) { // impede entrar outro caractere que não seja número
         text.value = v.substring(0, v.length - 1);
